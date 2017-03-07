@@ -14,6 +14,11 @@ The algorithms within the project conclude:<br>
 >>1) predicate the class of a ocean creature (whether it is a kind of fish),  
 >>2) predicate the class of lenses.  
 
+##3. Naive Bayes(NB)
+>Here, NB is applied in the following three situation :
+>>1) Text classification : classify the class of speech (abusive or formal) on the posting board of dalmation fans,  
+>>2) Spam detection : filter the spam from the email list,  
+>>3) Area analysis : analysis the common top words in an area from the personal ads.  
 
 
 #License
