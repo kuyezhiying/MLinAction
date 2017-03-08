@@ -22,8 +22,8 @@ The algorithms within the project conclude:<br>
 
 ##4. Logistic Regression(LR)
 >Here, LR use the (stochastic) gradient ascent methods to optimize the parameters. The trained model is used to :
->>1) classify the points in a plane
->>2) predicate the death ratio of ill horses from colic features 
+>>1) classify the points in a plane  
+>>2) predicate the death ratio of ill horses from colic features   
 
 
 
