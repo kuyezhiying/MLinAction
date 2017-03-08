@@ -20,6 +20,11 @@ The algorithms within the project conclude:<br>
 >>2) Spam detection : filter the spam from the email list,  
 >>3) Area analysis : analysis the common top words in an area from the personal ads.  
 
+##4. Logistic Regression(LR)
+>Here, LR use the (stochastic) gradient ascent methods to optimize the parameters. The trained model is used to :
+>>1) classify the points in a plane
+>>2) predicate the death ratio of ill horses from colic features 
+
 
 
 #License
