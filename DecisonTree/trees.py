@@ -143,7 +143,6 @@ def classify(tree, featureLabels, testVector):
 if __name__ == '__main__':
     #dataSet, labels = createDataSet()
     dataSet, labels = createDataSetFromFile('lenses.txt')
-    print dataSet, labels
     '''
     entropy = computeEntropy(dataSet)
     print entropy
