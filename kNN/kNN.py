@@ -1,4 +1,4 @@
-from numpy import array, tile, shape, zeros
+from numpy import array, tile, zeros
 from os import listdir
 import operator, PreProcess
 
@@ -36,7 +36,7 @@ def datingClassTest():
     holdOutRatio = 0.20
     
     datingDataMat, datingLabels = PreProcess.file2matrix('datingTestSet.txt')
-    normMat, ranges, minVals = PreProcess.autoNorm(datingDataMat)
+    normMat = PreProcess.autoNorm(datingDataMat)
     
     rows = normMat.shape[0]
     numTestVecs = int(rows * holdOutRatio)

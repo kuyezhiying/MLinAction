@@ -47,7 +47,7 @@ def autoNorm(dataSet):
     normDataSet = dataSet - tile(minVals, (rows, 1))
     normDataSet = normDataSet / tile(ranges, (rows, 1))
     
-    return normDataSet, ranges, minVals
+    return normDataSet
 
 '''
 Transform the digit(32*32 binary image) to vector(1*1024) 
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     showData(datingDataMat, datingLabels)
     
     '''
-    normMat, ranges, minVals = autoNorm(datingDataMat)
+    normMat = autoNorm(datingDataMat)
     print datingDataMat, datingLabels[0 : 20]
     print normMat, ranges, minVals
     '''
