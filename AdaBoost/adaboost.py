@@ -147,8 +147,7 @@ def plotROC(predicateStrengths, classLabels):
     print "the AUC (Area Under the Curve) is : ", ySum * xStep
 
 
-#if __name__ == '__main__':
-def main():
+if __name__ == '__main__':
     '''
     dataArr, classLabels = loadDataPoints()
     weights = mat(ones((5, 1)) / 5)
