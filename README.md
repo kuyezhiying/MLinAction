@@ -47,9 +47,9 @@ The regression algorithms within this part conclude:<br>
 
 ### 7. Linear Regression
 >Here, we use the Standard Linear Regression (SLR) and Locally Weighted Linear Regression (LWLR) model to predicate numeric data. To understand the data better, some shrinkage methods are used, such as Ridge Regression (RR), Lasso Regression (LR), Forward Stepwise Linear Regression (FSLR) and so on. Besides, we use 10-fold cross validation to select the best trained model. The learned regression models are used to :
->> 1) computing a fitting line from points in a plane, 
->> 2) predicate the age of abalone, 
->> 3) predicate the price of Lego toy suits.
+>>1) computing a fitting line from points in a plane, 
+>>2) predicate the age of abalone, 
+>>3) predicate the price of Lego toy suits.
 
 
 ... To be continued ...
