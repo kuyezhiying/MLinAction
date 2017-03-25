@@ -47,9 +47,15 @@ The regression algorithms within this part conclude:<br>
 
 ### 7. Linear Regression
 >Here, we use the Standard Linear Regression (SLR) and Locally Weighted Linear Regression (LWLR) model to predicate numeric data. To understand the data better, some shrinkage methods are used, such as Ridge Regression (RR), Lasso Regression (LR), Forward Stepwise Linear Regression (FSLR) and so on. Besides, we use 10-fold cross validation to select the best trained model. The learned regression models are used to :
->>1) computing a fitting line from points in a plane, 
+>>1) compute a fitting line from points in a plane, 
 >>2) predicate the age of abalone, 
 >>3) predicate the price of Lego toy suits.
+
+### 8. Tree Regression
+>Here, we use tree to fit the data when outputs are nonlinear with inputs. The tree models mainly contains Regression Tree (RT, where leaf node is a segment constant) and Model Tree (MT, where leaf node is a linear regression function). In this chapter, the following things are done :
+>>1) fit the nonlinear points in a plane with RT and MT, prune the trained tree model to avoid over-fitting, 
+>>2) predicate intelligence according to the speed of bikers with RT, MT and LR respectively, the models are evaluated by correlation coefficient, 
+>>3) integrate Matplotlib and Tkinter to display the RT and MT model over a sine curve data.
 
 
 ... To be continued ...
