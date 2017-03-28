@@ -58,6 +58,15 @@ The regression algorithms within this part conclude:<br>
 >>3) integrate Matplotlib and Tkinter to display the RT and MT model over a sine curve data.
 
 
+## Part 3 -- Clustering models
+The clustering algorithms within this part conclude:<br>
+
+### 9. K-means
+>In this chapter, we use the K-means and Bisecting K-means to do clustering with unlabeled data. K-means are sensitive to the initial centroids and is possible to converge to a local minimum, while bisecting k-means is able to converge to the global minimum. These two clustering methods are used to :
+>>1) cluster points in a plane, 
+>>2) cluster the night entertainment clubs in potland city.
+
+
 ... To be continued ...
 
 
